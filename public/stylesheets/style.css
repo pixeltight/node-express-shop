@@ -1,0 +1,46 @@
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar.navbar-dark .dropdown-menu {
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: #454d55;
+  border-radius: 0.4rem 0 0.4rem 0;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #007bff;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  color: #0056b3;
+  background-color: #e8ecec;
+}
+
+.dropdown-divider {
+  border-top: 2px dotted #aaacad;
+}
+
+.thumbnails {
+  border: 1px solid #CCC;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  margin: 1rem 0;
+}
+
+.caption > p {
+  min-height: 3rem;
+}
+
+.caption__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1rem;
+}
